@@ -1,0 +1,17 @@
+#Python_Books.project
+
+-in this project, me and my team mate had to make a web scraper designed to collect 
+ information abou books related to a specific topic from an e-commerce site,
+ in this case, elefant.ro
+
+-Project purpose : automate the process of data extraction from a book-selling website
+ It navigates the website's search page, extracts relevant information about the 
+ displayed books and stores them in a JSON file
+
+-Functional details : -this project uses Selenium to access and load the content of the page
+		      -pages are loaded in headless mode , enabling the automation process 
+                       to run without human interaction
+	              -Using BeautifulSoup, the code parses the page content to extract 
+		       relevant information from the HTML tags containing book details.
+		      -It checks for and skips books marked as "Out of Stock!" to ensure 
+			they are not included in the final results.
